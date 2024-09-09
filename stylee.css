@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('gear-5-luffy-artwork-5k-5120x2880-18363.jpg'); /* Add your image URL here */
+    background-image: url('https://gear-5-luffy-artwork-5k-5120x2880-18363.jpg'); /* Add your image URL here */
     background-size: cover; /* Makes the background image cover the entire page */
     background-position: center; /* Centers the background image */
     background-attachment: fixed; /* Keeps the background image fixed while scrolling */
