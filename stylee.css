@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('gear-5-luffy-artwork-5k-5120x2880-18363.jpg'); /* Add your image URL here */
+    background-size: cover; /* Makes the background image cover the entire page */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333; /* Adjust text color to make it visible on background */
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin: 8px 0;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}

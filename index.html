@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fitness Tracker</h1>
+        
+        <!-- Personal Information Section -->
+        <div class="personal-info">
+            <h2>Personal Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age">
+            
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter your weight">
+            
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" placeholder="Enter your height">
+        </div>
+        
+        <!-- Fitness Information Section -->
+        <div class="fitness-info">
+            <h2>Fitness Data</h2>
+            <p><strong>Step Count:</strong> <span id="steps">0</span></p>
+            <p><strong>Calories Burned:</strong> <span id="calories">0</span></p>
+            <p><strong>Exercise Duration:</strong> <span id="duration">0 min</span></p>
+            <p><strong>Distance Covered:</strong> <span id="distance">0 km</span></p>
+        </div>
+        
+        <!-- Action Section -->
+        <div class="actions">
+            <button onclick="updateFitnessData()">Update Fitness Data</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
